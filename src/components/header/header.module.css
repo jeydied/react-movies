@@ -1,0 +1,24 @@
+.header {
+  background-color: #032541;
+  width: 100%;
+  height: 8vh;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 16px 0;
+  align-items: center;
+  align-self: flex-start;
+  justify-content: space-between;
+}

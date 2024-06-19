@@ -1,0 +1,10 @@
+.sort .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.sort .title {
+  margin: 8px 0;
+  font-weight: bold;
+}

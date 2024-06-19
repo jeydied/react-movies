@@ -1,0 +1,136 @@
+.movieDetails {
+  max-width: 80%;
+  margin: 24px auto;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 20%;
+  align-self: flex-start;
+  border-radius: 8px;
+}
+
+.info {
+  margin-left: 40px;
+  align-self: flex-start;
+  width: 80%;
+}
+
+.movieDetailsInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.movieDetailsInfo > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.rating .circle {
+  margin-right: 8px;
+}
+
+.releaseDate,
+.genres a,
+.runtime {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.genres a:hover {
+  color: rgb(195, 195, 195);
+}
+
+.genres,
+.runtime {
+  margin-left: 16px;
+  opacity: 0.8;
+}
+
+.actions {
+  margin-left: 24px;
+}
+
+.actions button {
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.actions button:hover {
+  transform: scale(1.1);
+}
+
+.review {
+  margin: 32px 0;
+}
+
+.review span {
+  display: block;
+}
+
+.mainCast ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainCast ul li {
+  display: block;
+  padding: 0;
+}
+
+.media {
+  margin: 32px 0;
+}
+
+.cast .castList {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  overflow-x: scroll;
+  margin-top: 16px;
+}
+
+.castList .card {
+  margin-bottom: 16px;
+}
+
+.castList::-webkit-scrollbar {
+  height: 8px;
+  width: var(--sb-size);
+}
+
+.castList::-webkit-scrollbar-track {
+  background: none;
+}
+
+.castList::-webkit-scrollbar-thumb {
+  background: rgb(170, 170, 170);
+  border-radius: 10px;
+}
+
+.cast .card {
+  flex: 0 0 auto;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.media .title {
+  margin-bottom: 16px;
+}

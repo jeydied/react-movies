@@ -1,0 +1,11 @@
+.filters {
+  padding: 16px 24px;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.filters .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
